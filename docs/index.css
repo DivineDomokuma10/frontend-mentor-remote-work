@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Epilogue, calibri;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: hsl(0, 0%, 98%);
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+#nav-first-div {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: greenyellow; */
+}
+
+header {
+    width: 23%;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+header img {
+    margin-top: 7%;
+}
+
+#desktop {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: wheat; */
+}
+
+section {
+    display: none;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop li {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#desktop li img {
+    margin-top: 5.7%;
+    cursor: pointer;
+}
+
+#desktop li a {
+    color: hsl(0, 0%, 41%);
+}
+
+#desktop li:hover a {
+    font-weight: 500;
+    color: hsl(0, 0%, 8%);
+}
+
+.dropdown1 {
+    width: 10%;
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    border-radius: 6px;
+    box-shadow: 0px 3px 10px 10px hsla(0, 0%, 8%, 0.199)
+}
+
+#dd1-first {
+    top: 10%;
+    left: 5.5%;
+    padding: 10px;
+    z-index: 10;
+    display: none;
+    background: hsl(0, 0%, 98%);
+}
+
+#dd1-first li {
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#dd1-first li a {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+    align-items: center;
+}
+
+#dd1-first li:hover a {
+    color: hsl(0, 0%, 8%);
+}
+
+#dd1-second {
+    width: 7%;
+    height: 15%;
+    left: 19%;
+    padding: 4.5px;
+    display: flex;
+    display: none;
+    background: hsl(0, 0%, 98%);
+}
+
+#dd1-second li {
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dd1-second li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+    justify-content: center;
+    align-items: center;
+}
+
+#dd1-second li:hover a {
+    color: hsl(0, 0%, 8%);
+}
+
+#desktop2 {
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    /* background: blueviolet; */
+    justify-content: space-between;
+}
+
+#desktop2 li {
+    width: 43%;
+    height: 100%;
+    /* background: greenyellow; */
+}
+
+#desktop2:last-child li {
+    width: 52%;
+}
+
+#desktop2 li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: hsl(0, 0%, 41%);
+    justify-content: center;
+}
+
+#desktop2 li:hover a {
+    font-weight: 500;
+    color: hsl(0, 0%, 8%);
+}
+
+#desktop2 li a button {
+    width: 100%;
+    height: 57%;
+    font-size: 16px;
+    background: none;
+    border-radius: 17px;
+    color: hsl(0, 0%, 41%);
+    border: 1px solid hsl(0, 0%, 41%);
+}
+
+#desktop2 li:hover a button {
+    font-weight: 500;
+    color: hsl(0, 0%, 8%);
+    border: 2px solid hsl(0, 0%, 8%);
+}
+
+#menu {
+    display: none;
+}
+
+main {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: 1% auto;
+    justify-content: space-between;
+}
+
+article {
+    width: 47%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.5%;
+    padding-left: 2.5%;
+    flex-direction: column;
+}
+
+article h1 {
+    font-size: 75px;
+    line-height: 57px;
+}
+
+article h2 {
+    display: none;
+}
+
+article p {
+    color: hsl(0, 0%, 41%);
+    line-height: 25px;
+    font-size: 17px;
+}
+
+article button {
+    width: 30%;
+    height: 13%;
+    border: none;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 16.5px;
+    color: hsl(0, 0%, 98%);
+    background: hsl(0, 0%, 8%);
+}
+
+article button:hover {
+    color: hsl(0, 0%, 8%);
+    background: none;
+    border: 2px solid hsl(0, 0%, 8%);
+}
+
+article div {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-img {
+    width: 14%;
+    height: 65%;
+}
+
+aside {
+    width: 40%;
+    height: 100%;
+}
+
+aside img {
+    width: 100%;
+    height: 100%;
+}

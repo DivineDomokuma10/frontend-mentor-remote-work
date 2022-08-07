@@ -1,0 +1,191 @@
+@media(orientation: portrait){
+    body{
+        max-width: 100vw;
+    }
+    #nav-first-div{
+        width: 50%;
+    }
+    header{
+        width: 68%;
+    }
+    #desktop,#desktop2,article h1,.dropdown1{
+        display: none;
+    }
+    #mobile{
+        display: block;
+        width: 64%;
+        height: 100%;
+        top: 0;
+        right: -64%;
+        position: fixed;
+        background: white;
+        z-index: 6;
+    }
+    section{
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        position: absolute;
+        background: black;
+        display: flex;
+    }
+
+    /* CLASS TO BE ADD */
+    .M-ul{
+        width: 85%;
+        height: 57%;
+        margin: 2% auto;
+        /* background: red; */
+    } 
+    /* CLASS TO BE ADD */
+
+    .mobile-M-ul{
+        width: 85%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2%;
+        padding: 10%;
+        /* background: yellowgreen; */
+    }
+
+    /* CLASS TO BE ADD */
+    .M-ul-li{
+        width: 48%;
+        height: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 17px;
+        /* background: orange;  */
+
+    }
+    .M-ul-li a{
+        width: 60%;
+        color: hsl(0, 0%, 41%);
+        font-size: 16.5px;
+    }
+    .M-ul-li img{
+        cursor: pointer;
+    }
+    /* CLASS TO BE ADD */
+
+    .M-ul-li-new{
+        width: 48%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 17px;
+    }
+    .M-ul-li-new a{
+        width: 60%;
+        color: hsl(0, 0%, 41%);
+        font-size: 16.5px;
+    }
+    .M-ul-li-new img{
+        cursor: pointer;
+    }
+    .sub-ul{
+        width: 60%;
+        height: 30%;
+        margin: 6% 0 6% 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #sub-ul2{
+        margin-left: 7%;
+        height: 25%;
+    }
+    .sub-li{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sub-li a{
+        width: 60%;
+        color: hsl(0, 0%, 41%);
+        font-size: 16.5px;
+    }
+    #mobile p{
+        margin-top: 30%;
+        text-align: center;
+    }
+    #mobile p a{
+        font-size: 16.5px;
+        color: hsl(0, 0%, 41%);   
+    }
+    #last-btn{
+        width: 65%;
+        height: 6%;
+        margin: 8% 0 0 19%;
+        font-size: 16.5px;
+        border-radius: 7px;
+        color: hsl(0, 0%, 41%);
+        background: none;
+        border: 1px solid hsl(0, 0%, 8%);
+    }
+    #cancel-btn-div{
+        width: 100%;
+        height: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    #cancel-btn{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    #menu{
+        width: 15%;
+        height: 90%;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 400;
+        justify-content: center;
+    }
+    main{
+        width: 95%;
+        height: 85%;
+        align-items: center;
+        /* background: red; */
+        flex-direction: column-reverse;
+    }
+    aside{
+        width: 100%;
+        height: 50%;
+    }
+    article{
+        width: 100%;
+        height: 47%;
+        align-items: center;
+    }
+    
+    article h2{
+        display: block;
+        font-size: 30px;
+
+    }
+    article p{
+        color: hsl(0, 0%, 41%);
+        line-height: 25px;
+        font-size: 17px;
+    }
+    article button{
+        width: 45%;
+        height: 17%;
+    }
+    
+}
